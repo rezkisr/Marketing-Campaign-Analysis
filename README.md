@@ -67,6 +67,39 @@ Analyzed complaint status and identified potential priority customer segments.
 
 ---
 
+## Project Files
+
+* `01_marketing_campaign.csv` - Original dateset.
+* `02_marketing_campaign_cleaned.csv` - Cleaned dataset used for analysis.
+* `marketing_campaign_analysis.ipynb` - Exploratory data analysis.
+* `Marketing Campaign Dashboard.pbix` - Visualizations.
+---
+
+## Repository Structure
+
+```text
+Marketing-Campaign-Analysis/ 
+│ 
+├── 1. Data/ 
+│   ├── 01_marketing_campaign.csv 
+│   └── 02_marketing_campaign_cleaned.csv 
+│ 
+├── 2. Notebook/ 
+│   └── marketing_campaign_analysis.ipynb 
+│ 
+├── 3. Dashboard/ 
+│   └── Marketing Campaign Dashboard.pbix 
+│ 
+├── 4. Images/ 
+│   ├── 01_campaign_performance.png 
+│   ├── 02_customer_characteristics.png 
+│   ├── 03_customer_behavior.png 
+│   └── 04_customer_experience_targeting.png 
+│ 
+└── README.md
+```
+---
+
 ## Dashboard
 
 An interactive **Power BI dashboard** was created to explore campaign performance, customer characteristics, customer behavior, and targeting insights.
@@ -86,32 +119,6 @@ An interactive **Power BI dashboard** was created to explore campaign performanc
 ### Customer Experience & Targeting
 
 ![Customer Experience & Targeting](4. Images/04_customer_experience_targeting.png)
-
----
-
-## Project Files
-
-* 01_marketing_campaign.csv - Original dateset.
-* 02_marketing_campaign_cleaned.csv - Cleaned dataset used for analysis.
-* marketing_campaign_analysis.ipynb - Exploratory data analysis.
-* Marketing Campaign Dashboard.pbix - Visualizations.
----
-
-## Repository Structure
-
-├── 1. Data/
-│   └── 01_marketing_campaign.csv
-│   └── 02_marketing_campaign_cleaned.csv
-├── 2. Notebook/
-│   └── marketing_campaign_analysis.ipynb
-├── 3. Dashboard/
-│   └── Marketing Campaign Dashboard.pbix
-├── 4. Images/
-│   └── 01_campaign_performance.png
-│   └── 02_customer_characteristics.png
-│   └── 03_customer_behavior.png
-│   └── 04_customer_experience_targeting.png
-└── README.md
 
 ---
 
