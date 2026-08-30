@@ -1,10 +1,10 @@
 # Marketing Campaign Analysis
 
-## Overview
+## Project Overview
 
 This project analyzes customer data from a marketing campaign to identify **which customers are more likely to respond** and which customer characteristics and behaviors are associated with campaign response.
 
-The project uses **Power Query for Data Cleaning**, **Python for data manipulation and analysis** and **Power BI for interactive visualization and business insights**.
+The project uses **Power Query for Data Cleaning**, **Python for additional cleaning and analysis** and **Power BI for interactive visualization and business insights**.
 
 ---
 
@@ -14,12 +14,6 @@ The project uses **Power Query for Data Cleaning**, **Python for data manipulati
 * Which customer characteristics are associated with higher response?
 * What customer behaviors are associated with higher response?
 * Which customers should be prioritized for future campaigns?
-
----
-
-## Dataset
-
-The dataset contains customer demographics, household characteristics, purchasing behavior, campaign engagement, and campaign response data.
 
 ---
 
@@ -77,15 +71,63 @@ Analyzed complaint status and identified potential priority customer segments.
 
 An interactive **Power BI dashboard** was created to explore campaign performance, customer characteristics, customer behavior, and targeting insights.
 
+### Campaign Performance
+
+![Campaign Performance](4. Images/01_campaign_performance.png)
+
+### Customer Characteristics
+
+![Customer Characteristics](4. Images/02_customer_characteristics.png)
+
+### Customer Behavior
+
+![Customer Behavior](4. Images/03_customer_behavior.png)
+
+### Customer Experience & Targeting
+
+![Customer Experience & Targeting](4. Images/04_customer_experience_targeting.png)
+
 ---
 
-## Project Structure
+## Project Files
+
+* 01_marketing_campaign.csv - Original dateset.
+* 02_marketing_campaign_cleaned.csv - Cleaned dataset used for analysis.
+* marketing_campaign_analysis.ipynb - Exploratory data analysis.
+* Marketing Campaign Dashboard.pbix - Visualizations.
+---
+
+## Repository Structure
 
 ├── Data/
-│   └── 01. marketing_campaign.csv
-│   └── 02. marketing_campaign_cleaned.csv
+│   └── 01_marketing_campaign.csv
+│   └── 02_marketing_campaign_cleaned.csv
 ├── Notebook/
 │   └── marketing_campaign_analysis.ipynb
 ├── Dashboard/
 │   └── Marketing Campaign Dashboard.pbix
+├── Images/
+│   └── 01_campaign_performance.png
+|   └── 02_customer_characteristics.png
+|   └── 03_customer_behavior.png
+|   └── 04_customer_experience_targeting.png
 └── README.md
+
+---
+
+## Dataset
+
+The dataset contains customer demographics, household characteristics, purchasing behavior, campaign engagement, and campaign response data.
+
+Dataset: Marketing Campaign
+Source: Kaggle
+
+---
+
+## Author
+
+Rezki Surahmi
+
+Aspiring Data Analyst passionate about turning data into meaningful insights through analysis and visualization.
+
+GitHub: https://github.com/rezkisr
