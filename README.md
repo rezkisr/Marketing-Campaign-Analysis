@@ -99,18 +99,18 @@ An interactive **Power BI dashboard** was created to explore campaign performanc
 
 ## Repository Structure
 
-├── Data/
+├── 1. Data/
 │   └── 01_marketing_campaign.csv
 │   └── 02_marketing_campaign_cleaned.csv
-├── Notebook/
+├── 2. Notebook/
 │   └── marketing_campaign_analysis.ipynb
-├── Dashboard/
+├── 3. Dashboard/
 │   └── Marketing Campaign Dashboard.pbix
-├── Images/
+├── 4. Images/
 │   └── 01_campaign_performance.png
-|   └── 02_customer_characteristics.png
-|   └── 03_customer_behavior.png
-|   └── 04_customer_experience_targeting.png
+│   └── 02_customer_characteristics.png
+│   └── 03_customer_behavior.png
+│   └── 04_customer_experience_targeting.png
 └── README.md
 
 ---
