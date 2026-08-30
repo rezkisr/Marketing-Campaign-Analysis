@@ -80,17 +80,17 @@ Analyzed complaint status and identified potential priority customer segments.
 ```text
 Marketing-Campaign-Analysis/ 
 │ 
-├── 1. Data/ 
+├── 1_Data/ 
 │   ├── 01_marketing_campaign.csv 
 │   └── 02_marketing_campaign_cleaned.csv 
 │ 
-├── 2. Notebook/ 
+├── 2_Notebook/ 
 │   └── marketing_campaign_analysis.ipynb 
 │ 
-├── 3. Dashboard/ 
+├── 3_Dashboard/ 
 │   └── Marketing Campaign Dashboard.pbix 
 │ 
-├── 4. Images/ 
+├── 4_Images/ 
 │   ├── 01_campaign_performance.png 
 │   ├── 02_customer_characteristics.png 
 │   ├── 03_customer_behavior.png 
@@ -106,19 +106,19 @@ An interactive **Power BI dashboard** was created to explore campaign performanc
 
 ### Campaign Performance
 
-![Campaign Performance](4. Images/01_campaign_performance.png)
+![Campaign Performance](4_Images/01_campaign_performance.png)
 
 ### Customer Characteristics
 
-![Customer Characteristics](4. Images/02_customer_characteristics.png)
+![Customer Characteristics](4_Images/02_customer_characteristics.png)
 
 ### Customer Behavior
 
-![Customer Behavior](4. Images/03_customer_behavior.png)
+![Customer Behavior](4_Images/03_customer_behavior.png)
 
 ### Customer Experience & Targeting
 
-![Customer Experience & Targeting](4. Images/04_customer_experience_targeting.png)
+![Customer Experience & Targeting](4_Images/04_customer_experience_targeting.png)
 
 ---
 
