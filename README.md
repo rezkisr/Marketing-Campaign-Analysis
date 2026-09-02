@@ -78,7 +78,7 @@ Analyzed complaint status and identified potential priority customer segments.
 ## Repository Structure
 
 ```text
-Marketing-Campaign-Analysis/ 
+Marketing Campaign/ 
 │ 
 ├── 1_Data/ 
 │   ├── 01_marketing_campaign.csv 
